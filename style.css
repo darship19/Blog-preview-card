@@ -1,0 +1,79 @@
+*{
+   
+    margin: 0;
+    padding: 0;
+   
+  
+}/* Mobile Styles */
+@media only screen and (max-width: 375px) {
+    /* Styles specific to mobile devices with a width up to 375px */
+    /* Adjust as needed */
+}
+
+/* Desktop Styles */
+@media only screen and (min-width: 376px) and (max-width: 1440px) {
+    /* Styles specific to devices with a width between 376px and 1440px */
+    /* Adjust as needed */
+}
+
+body{
+    background-color: hsl(47, 88%, 63%);
+    font-size: 16px;
+    font-family: Figtree;
+    font-weight: 600;
+
+    
+}
+.cover{
+    width: 22%; /* Adjust the width as needed */
+    margin: 95px auto; /* Center the element horizontally */
+    
+    border-radius: 10px;
+    border:2px solid;
+    background-color: hsl(0, 0%, 100%);
+    box-shadow: black 10px 5px;
+    padding: 20px;
+}
+.coverImg img{
+    width: auto;
+    height: auto;
+
+border-radius: 10px;
+
+}
+
+.describtion {
+    margin: 0;
+    padding: 0;
+}
+div{
+    padding-top: 10px;
+}
+
+ h4{
+    background-color: hsl(47, 88%, 63%);
+    height: 18px;
+    width: 67px;
+    border-radius: 3px;
+    padding: 5px;
+
+}
+.change-color{
+    color: black;
+    cursor: pointer;
+}
+
+.change-color:active{
+color:hsl(47, 88%, 63%) ;
+}
+
+
+.author{
+    display: flex;
+    align-items: center;
+}
+
+.author img {
+    width: 30px;
+    height: 30px;
+}
