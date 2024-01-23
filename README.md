@@ -14,7 +14,7 @@ This is a solution to the [Blog preview card challenge on Frontend Mentor](https
 - [Author](#author)
 
 
-
+https://darship19.github.io/Blog-preview-card/
 ## Overview
 
 ### The challenge
